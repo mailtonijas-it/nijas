@@ -697,7 +697,7 @@ I lead enterprise technology strategy, infrastructure expansion, and innovation 
                     <ul>
                         <li><a href="https://www.linkedin.com/in/muhamadnijasa/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                         <li><a href="https://www.instagram.com/muhamad.nijas/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://wa.me/919744537859" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                        <li><a href="https://wa.me/919744537859" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
                     </ul>
                 </div>
 
@@ -725,26 +725,31 @@ I lead enterprise technology strategy, infrastructure expansion, and innovation 
     <script src="js/main.js"></script>
 
 <script>
-function calculateExperience(startYear, startMonth) {
-    const startDate = new Date(startYear, startMonth - 1);
-    const currentDate = new Date();
 
-    let years = currentDate.getFullYear() - startDate.getFullYear();
-    let months = currentDate.getMonth() - startDate.getMonth();
+function calculateExperience(startYear, startMonth) {
+
+    const startDate = new Date(startYear, startMonth - 1);
+    const today = new Date();
+
+    let years = today.getFullYear() - startDate.getFullYear();
+    let months = today.getMonth() - startDate.getMonth();
 
     if (months < 0) {
         years--;
         months += 12;
     }
 
-    return years + " years " + months + " months";
+    return years + " Years " + months + " Months";
 }
 
-document.getElementById("totalExp").innerText =
-    calculateExperience(2010, 4);
+// Total experience (Apr 2010)
+document.getElementById("totalExp").innerHTML =
+    calculateExperience(2010,4);
 
-document.getElementById("fullTimeExp").innerText =
-    calculateExperience(2016, 7);
+// Full time experience (Jul 2016)
+document.getElementById("fullTimeExp").innerHTML =
+    calculateExperience(2016,7);
+
 </script>
 
 
