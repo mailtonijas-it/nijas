@@ -388,12 +388,16 @@ input[type="submit"]:focus {
     z-index: 1;
 }
 
-.header-photo img {
-    max-width: 100%;
-    background-color: #fff;
-    border: 3px solid #fff;
-    border-radius: 70px;
-    filter:grayscale(30%);
+.header-photo img{
+    max-width:100%;
+    border-radius:50%;
+    border:4px solid #e1db24;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    transition:0.4s;
+}
+
+.header-photo img:hover{
+    transform:scale(1.05);
 }
 
 
