@@ -108,10 +108,10 @@ p {
     position: relative;
     width: 100%;
     max-width: 1280px;
-    min-height: 80vh;
+    min-height: 85vh;
     margin: 10vh auto;
     padding: 0;
-    background-color: #0c192c;
+    background-color: #003135;
     -webkit-box-shadow: 0 0 100px -5px rgba(0, 0, 0, .25);
     -moz-box-shadow: 0 0 100px -5px rgba(0, 0, 0, .25);
     box-shadow: 0 0 100px -5px rgba(0, 0, 0, .25);
@@ -119,7 +119,6 @@ p {
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-
 
 /* buttons */
 
@@ -464,19 +463,20 @@ input[type="submit"]:focus {
     opacity: .9;
 }
 
-.social-links ul li a:hover {
-    opacity: 1;
-    background-color: rgba(255, 255, 255, .2);
-}
 .social-links ul li a{
-    background:#0c223f;
+    background:lab(35.57% 19.36 -56.31 / 0.733);
     transition:0.3s;
 }
 
 .social-links ul li a:hover{
-    background:#e1db24;
+    background:#bdbca8;
     color:#000;
-    transform:scale(1.2);
+    transform:scale(1.5);
+}
+
+.social-links ul li a:hover {
+    opacity: 2;
+    background-color: rgba(255, 255, 255, .2);
 }
 
 
@@ -537,7 +537,7 @@ input[type="submit"]:focus {
 
 .animated-section {
     position: absolute;
-    background-color: #051430;
+    background-color: #024950;
     height: 100%;
     width: 100%;
     padding: 60px;
