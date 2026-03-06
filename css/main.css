@@ -344,7 +344,8 @@ input[type="submit"]:focus {
 
 .lmpixels-arrows-nav {
     position: absolute;
-    padding: 10px 0;
+    padding: 15px 0;
+    top: 0;
     width: 60px;
     right: -80px;
     background-color: #444;
@@ -352,7 +353,7 @@ input[type="submit"]:focus {
     z-index: 98;
     list-style: none;
     bottom: 0;
-    -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, .15);
+    -webkit-box-shadow: 0 0 35px -5px rgba(0, 0, 0, .15);
     -moz-box-shadow: 0 0 30px -5px rgba(0, 0, 0, .15);
     box-shadow: 0 0 30px -5px rgba(0, 0, 0, .15);
 }
