@@ -1242,7 +1242,7 @@ input[type="text"],
     left: 38%;
     bottom: 0;
     width: 1px;
-    background-color: #444;
+    background-color: #be9c2a;
 }
 
 .timeline-second-style .divider:before {
@@ -1307,7 +1307,6 @@ input[type="text"],
 .timeline-second-style .item-logo img {
     max-height: 40px;
 }
-
 
 /* --- End Timeline (Education & Experience) --- */
 
@@ -1466,7 +1465,7 @@ input[type="text"],
     display: table;
     table-layout: fixed;
     width: 100%;
-    border: 2px solid #444;
+    border: 2px solid #a78f8f;
     border-radius: 8px;
     margin-bottom: 20px;
     -webkit-transition: all 2s ease-in-out;
@@ -1480,7 +1479,7 @@ input[type="text"],
     display: table-cell;
     width: 120px;
     height: 100%;
-    background-color: #444;
+    background-color: #44444498;
     padding: 25px;
     vertical-align: middle;
     border-top-left-radius: 6px;
@@ -1519,23 +1518,34 @@ input[type="text"],
 /* --- End of Certificates --- */
 
 
-/* --- Contact Form --- */
+/* --- Contact Layout --- */
 
-.controls.two-columns .left-column {
-    width: 47%;
-    float: left;
-    margin-right: 3%;
+.contact-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:20px;
 }
 
-.controls.two-columns .right-column {
-    width: 50%;
-    float: right;
+.contact-card{
+background:rgba(255,255,255,0.06);
+padding:25px;
+border-radius:14px;
+text-align:center;
+border:1px solid rgba(255,255,255,0.08);
+transition:all .3s ease;
 }
 
-.g-recaptcha {
-    margin-bottom: 20px;
+.contact-card:hover{
+transform:translateY(-5px);
+box-shadow:0 15px 35px rgba(0,0,0,0.4);
 }
 
+.contact-card i{
+font-size:28px;
+color:#e1db24;
+margin-bottom:10px;
+}
 
 /* --- End of Contact Form --- */
 
