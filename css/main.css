@@ -537,25 +537,28 @@ input[type="submit"]:focus {
 
 .animated-section {
     position: absolute;
-    background-color: #024950;
+    background: rgba(2, 73, 80, 0.85); /* slight transparency */
     height: 100%;
     width: 100%;
     padding: 60px;
     opacity: 0;
     overflow: auto;
     visibility: hidden;
+
+    border-radius: 25px; /* rounded edges */
+
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5); /* soft shadow */
+
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+
+    transform: translate3d(0,0,0);
+
     background-repeat: no-repeat;
     background-position: center;
-    background-position: 50% 50%;
     background-size: cover;
 }
-
 .single-page-content {
     position: absolute;
     background-color: #222;
