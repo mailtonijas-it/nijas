@@ -172,6 +172,18 @@ input[type="submit"]:focus {
     color: #fff;
     border: 2px solid #e1db24;
 }
+.btn-primary1:hover,
+.btn-primary1:focus,
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="down"]:hover,
+input[type="submit"]:focus {
+    background-color: #e8e7d3;
+    color: #fff;
+    border: 2px solid #e1db24;
+}
 
 .btn-secondary {
     border-color: #d5d5d5;
