@@ -178,7 +178,7 @@ button:hover,
 button:focus,
 input[type="button"]:hover,
 input[type="button"]:focus,
-input[type="down"]:hover,
+input[type="submit"]:hover,
 input[type="submit"]:focus {
     background-color: #e8e7d3;
     color: #fff;
