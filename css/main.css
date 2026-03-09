@@ -359,9 +359,27 @@ transform:translateY(-2px);
         opacity: 1;
     }
     /* --- End Navigation --- */
+  /* --- company logo --- */
+            
 }
 
+.company-info{
+display:flex;
+align-items:center;
+gap:8px;
+margin-top:3px;
+}
 
+.company-logo{
+width:20px;
+height:20px;
+object-fit:contain;
+border-radius:4px;
+}
+
+.item-company{
+font-size:13px;
+}
 /* --- LMPixels Arrow Nav --- */
 
 .lmpixels-arrows-nav {
@@ -396,7 +414,7 @@ transform:translateY(-2px);
 .lmpixels-arrows-nav div:hover {
     color: #e1db24;
 }
-
+/* --- end of company logo --- */
 
 /* --- End LMPixels Arrow Nav --- */
 
