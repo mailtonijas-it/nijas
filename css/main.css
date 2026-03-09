@@ -1341,13 +1341,68 @@ input[type="text"],
 }
 
 .timeline-second-style .item-logo {
-    display: block;
-    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
 }
 
-.timeline-second-style .item-logo img {
-    max-height: 40px;
+.timeline-second-style .item-logo img{
+    max-height:18px;
+    vertical-align:middle;
 }
+
+.timeline-second-style .item-logo img{
+max-height:32px;
+border-radius:4px;
+box-shadow:0 0 6px rgba(0,0,0,0.15);
+}
+
+
+.company-info{
+display:flex;
+align-items:center;
+gap:6px;
+margin-top:2px;
+justify-content:flex-end;
+}
+
+.company-logo{
+width: 32px;
+height:32px;
+object-fit:contain;
+border-radius:3px;
+}
+
+.timeline-second-style .item-company{
+font-size:14px;
+font-weight:300;
+color:#a5a6a7;
+margin:0;
+}
+
+.company-logo{
+height:25px;
+transition:transform 0.1s ease;
+}
+
+.company-logo:hover{
+transform:scale(5.3);
+}
+
+.deployment-info{
+display:flex;
+align-items:center;
+gap:6px;
+margin-top:3px;
+justify-content:flex-end;
+font-size:12px;
+color:#bbb;
+}
+
+.deployment-label{
+opacity:0.8;
+}
+
 
 /* --- End Timeline (Education & Experience) --- */
 
